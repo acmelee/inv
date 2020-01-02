@@ -35,7 +35,7 @@ namespace hourOfCode {
     /**
      * say hi
      */
-    //% block="say hi inv""
+    //% block="say hi 111inv""
     //% weight=90
     export function sayhi() {
         mobs.execute(
@@ -44,7 +44,7 @@ namespace hourOfCode {
             "say hi inv"
         
         )
-        agent.getitemcount(0)
+        agent.getitemcount()
     }
 
     /**

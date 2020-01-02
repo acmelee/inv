@@ -35,13 +35,13 @@ namespace hourOfCode {
     /**
      * say hi
      */
-    //% block="say hi""
+    //% block="say hi inv""
     //% weight=90
     export function sayhi() {
         mobs.execute(
             mobs.target(TargetSelectorKind.NearestPlayer),
             positions.create(0, 0, 0),
-            "say hi1111"
+            "say hi inv"
         
         )
         agent.getitemcount(0)
